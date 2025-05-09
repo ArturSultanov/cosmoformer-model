@@ -52,5 +52,5 @@ Model was published on Hugging Face: <a href="https://huggingface.co/artursultan
 ## Links:
 1. Galaxy classification application: https://github.com/ArturSultanov/cosmoformer-application
 2. CosmoFormer model: https://github.com/ArturSultanov/cosmoformer-model
-3. Trained model on Hugging Face: https://huggingface.co/artursultanov/cosmoformer-model
-4. CosmoFormer dataset: https://github.com/ArturSultanov/cosmoformer-dataset
+3. CosmoFormer dataset: https://github.com/ArturSultanov/cosmoformer-dataset
+4. CosmoFormer dataset (no pre-downloaded images): https://github.com/ArturSultanov/cosmoformer-dataset-no-images
