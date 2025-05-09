@@ -22,9 +22,10 @@ This repository "Cosmoformer Model" contains pipeline for training and saving `C
 
 ## Installation and Prerequisites
 
-1. Install `Python` packages from <a href="requirements.txt">requirements.txt</a> file.
-2. Dataset should be placed at **cosmoformer-dataset** folder. Dataset can be pulled from <a href="https://github.com/ArturSultanov/cosmoformer-dataset"> ArturSultanov/cosmoformer-dataset</a> repository.
-3. Open <a href="model_training.ipynb"> `model_training.ipynb` </a> file and follow steps inside the Jupyter notebook.
+1. Install `Python 3.12` version.
+2. Install `Python` packages from <a href="requirements.txt">requirements.txt</a> file.
+3. Dataset should be placed at **cosmoformer-dataset** folder. Dataset can be pulled from <a href="https://github.com/ArturSultanov/cosmoformer-dataset"> ArturSultanov/cosmoformer-dataset</a> repository.
+4. Open <a href="model_training.ipynb"> `model_training.ipynb` </a> file and follow steps inside the Jupyter notebook.
 
 ## Model overview
 
