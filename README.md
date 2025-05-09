@@ -20,6 +20,12 @@ This repository "Cosmoformer Model" contains pipeline for training and saving `C
 
 ---
 
+## Installation and Prerequisites
+
+1. Install `Python` packages from <a href="requirements.txt">requirements.txt</a> file.
+2. Dataset should be placed at **cosmoformer-dataset** folder. Dataset can be pulled from <a href="https://github.com/ArturSultanov/cosmoformer-dataset"> ArturSultanov/cosmoformer-dataset</a> repository.
+3. Open <a href="model_training.ipynb"> `model_training.ipynb` </a> file and follow steps inside the Jupyter notebook.
+
 ## Model overview
 
 `CrossFormer` architecure has been used for model creation. The model code has been obtained via `vit-pytorch` Python package.
@@ -40,9 +46,10 @@ criterion = nn.CrossEntropyLoss(weight=class_weights_tensor)
 
 For training the `PyTorch` framework was used. This model was optimize to consume as less resources as possible while delivering dissent inference CPU performance.
 
-Model was published on Hugging Face: artursultanov/cosmoformer-model. 
+Model was published on Hugging Face: <a href="https://huggingface.co/artursultanov/cosmoformer-model"> artursultanov/cosmoformer-model</a>. 
 
 ## Links:
 1. Galaxy classification application: https://github.com/ArturSultanov/cosmoformer-application
 2. CosmoFormer model: https://github.com/ArturSultanov/cosmoformer-model
-3. CosmoFormer dataset: https://github.com/ArturSultanov/cosmoformer-dataset
+3. Trained model on Hugging Face: https://huggingface.co/artursultanov/cosmoformer-model
+4. CosmoFormer dataset: https://github.com/ArturSultanov/cosmoformer-dataset
